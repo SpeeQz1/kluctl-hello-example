@@ -1,0 +1,4 @@
+deployments:
+  - path: hello
+
+overrideNamespace: "mycluster-{{ args.environment }}"

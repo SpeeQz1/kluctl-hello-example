@@ -1,0 +1,9 @@
+discriminator: kluctl-mycluster-{{ target.name }}
+
+targets:
+  - name: dev
+    args:
+      environment: dev
+
+args:
+ - name: environment

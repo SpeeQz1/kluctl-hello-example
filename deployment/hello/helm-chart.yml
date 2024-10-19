@@ -1,0 +1,5 @@
+helmChart:
+  repo: https://cloudecho.github.io/charts/
+  chartName: hello
+  chartVersion: 0.1.2
+  releaseName: hello
